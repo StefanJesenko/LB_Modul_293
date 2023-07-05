@@ -49,3 +49,55 @@ th {
 tr {
     background-color: var(--boxbackground);
 }
+.Nav-Items a {
+        color: var(--textcolor);
+        font-size: 20px;
+        background-color: var(--boxbackground);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 15px 20px;
+        transition: background-color 0.5s ease-in-out;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+ #Home {
+        padding: 10px 20px;
+    }
+.Nav-Items a:hover {
+    font-size: 6vw;
+    transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    background-color: var(--boxbackgroundtransform);
+}
+#Hiragana .old-text,
+#Katakana .old-text {
+    padding-left: 3vw;
+    padding-top: 2vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#Hiragana .new-text,
+#Katakana .new-text {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#Hiragana:hover .old-text,
+#Katakana:hover .old-text {
+    opacity: 0;
+}
+
+#Hiragana:hover .new-text,
+#Katakana:hover .new-text {
+    opacity: 1;
+}
+
+#Hiragana:hover,
+#Katakana:hover {
+    font-size: 6vw;
+    transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    background-color: var(--boxbackgroundtransform);
+    
+}
