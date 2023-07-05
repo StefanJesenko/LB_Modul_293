@@ -17,9 +17,10 @@ h1 {
     background-color: var(--boxbackground);
     border-radius: 10px;
     padding: 20px 40px;
-    display: flex;
     justify-content: center;
     margin-top: 5px;
+    position: relative;
+    display: inline-block;
 
 }
 
