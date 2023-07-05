@@ -1,0 +1,336 @@
+:root {
+    --backgroundcolor: RGB(28, 80, 82);
+    --boxbackground: RGB(176, 255, 250);
+    --textcolor: RGB(54, 155, 158);
+    --boxbackgroundtransform: #81c3bd;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.ctfassets.net%2Ftn1xf54wq7nh%2FUxfD9ejROEWWSk8KQQeSw%2F199f8da46a8a00b84401390d1c386ea3%2FJapan_2-min.jpg&f=1&nofb=1&ipt=dd8173c07dbc0a90b39e8caf27871fc335b2e932e987e97eb8ddcad78712b2e2&ipo=images);
+
+}
+
+h1 {
+    font-size: 100px;
+    color: var(--textcolor);
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+table {
+    border-collapse: collapse;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+td,
+th {
+
+    border: 1px solid black;
+    padding: 8px 20px;
+    text-align: left;
+    font-size: 40px;
+    border-radius: 20px;
+
+}
+
+th {
+    background-color: var(--boxbackground);
+}
+
+tr {
+    background-color: var(--boxbackground);
+}
+
+.Nav-Items a {
+    color: var(--textcolor);
+    font-size: 50px;
+    background-color: var(--boxbackground);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 30px 40px;
+    transition: background-color 0.5s ease-in-out;
+    position: relative;
+    display: inline-block;
+}
+
+.Nav-Items a:hover {
+    font-size: 60px;
+    transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    background-color: var(--boxbackgroundtransform);
+}
+
+#Vokabular,
+#Home {
+    padding: 23px 43px;
+
+}
+
+#Katakana .old-text {
+    padding-left: 45px;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#Katakana .new-text {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#Katakana:hover .old-text {
+    opacity: 0;
+}
+
+#Katakana:hover .new-text {
+    opacity: 1;
+}
+
+.Nav-Items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+
+}
+
+p {
+    color: var(--textcolor);
+    font-size: 30px;
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.Hiragana-explenation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.Hiragana-explenation label {
+    color: var(--textcolor);
+    font-size: 20px;
+    background-color: var(--boxbackground);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    transition: background-color 0.5s ease-in-out;
+    position: relative;
+    display: inline-block;
+}
+
+#What-Hiragana-Text,
+#History-Hiragana-Text,
+#Sound-Hiragana-Text,
+#usecases-Hiragana-Text,
+#learn-Hiragana-Text {
+    display: none;
+}
+
+#What-Hiragana:checked~#What-Hiragana-Text {
+    display: block;
+
+}
+
+#History-Hiragana:checked~#History-Hiragana-Text {
+    display: block;
+
+}
+
+#Sound-Hiragana:checked~#Sound-Hiragana-Text {
+    display: block;
+
+}
+
+#usecases-Hiragana:checked~#usecases-Hiragana-Text {
+    display: block;
+
+}
+
+#learn-Hiragana:checked~#learn-Hiragana-Text {
+    display: block;
+
+}
+
+#What-Hiragana,
+#History-Hiragana,
+#Sound-Hiragana,
+#usecases-Hiragana,
+#learn-Hiragana {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --backgroundcolor: RGB(28, 80, 82);
+        --boxbackground: RGB(176, 255, 250);
+        --textcolor: RGB(54, 155, 158);
+        --boxbackgroundtransform: #81c3bd;
+    }
+
+    body {
+        background-color: var(--backgroundcolor);
+        background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.ctfassets.net%2Ftn1xf54wq7nh%2FUxfD9ejROEWWSk8KQQeSw%2F199f8da46a8a00b84401390d1c386ea3%2FJapan_2-min.jpg&f=1&nofb=1&ipt=dd8173c07dbc0a90b39e8caf27871fc335b2e932e987e97eb8ddcad78712b2e2&ipo=images);
+    }
+
+    h1 {
+        font-size: 40px;
+        color: var(--textcolor);
+        background-color: var(--boxbackground);
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+
+    td,
+    th {
+        border: 1px solid black;
+        padding: 2px 5px;
+        text-align: left;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+    th {
+        background-color: var(--boxbackground);
+    }
+
+    tr {
+        background-color: var(--boxbackground);
+    }
+
+    .Nav-Items a {
+        color: var(--textcolor);
+        font-size: 20px;
+        background-color: var(--boxbackground);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 15px 20px;
+        transition: background-color 0.5s ease-in-out;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    .Nav-Items a:hover {
+        font-size: 30px;
+        transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+        background-color: var(--boxbackgroundtransform);
+    }
+
+    #Vokabular,
+    #Home {
+        padding: 10px 20px;
+    }
+
+    #Katakana .old-text {
+        padding-left: 20px;
+        padding-top: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    #Katakana .new-text {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    #Katakana:hover .old-text {
+        opacity: 0;
+    }
+
+    #Katakana:hover .new-text {
+        opacity: 1;
+    }
+
+    .Nav-Items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: var(--textcolor);
+        font-size: 16px;
+        background-color: var(--boxbackground);
+        border-radius: 10px;
+        padding: 10px 20px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .Hiragana-explenation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .Hiragana-explenation label {
+        color: var(--textcolor);
+        font-size: 12px;
+        background-color: var(--boxbackground);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        transition: background-color 0.5s ease-in-out;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    #What-Hiragana-Text,
+    #History-Hiragana-Text,
+    #Sound-Hiragana-Text,
+    #usecases-Hiragana-Text,
+    #learn-Hiragana-Text {
+        display: none;
+    }
+
+    #What-Hiragana:checked~#What-Hiragana-Text,
+    #History-Hiragana:checked~#History-Hiragana-Text,
+    #Sound-Hiragana:checked~#Sound-Hiragana-Text,
+    #usecases-Hiragana:checked~#usecases-Hiragana-Text,
+    #learn-Hiragana:checked~#learn-Hiragana-Text {
+        display: block;
+    }
+
+    #What-Hiragana,
+    #History-Hiragana,
+    #Sound-Hiragana,
+    #usecases-Hiragana,
+    #learn-Hiragana {
+        display: none;
+    }
+
+
+}
