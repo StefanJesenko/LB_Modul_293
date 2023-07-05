@@ -56,28 +56,27 @@ tr {
     margin-left: 10%;
     margin-right: 10%;
 }
-.Nav-Items a {
-        color: var(--textcolor);
-        font-size: 20px;
-        background-color: var(--boxbackground);
-        text-decoration: none;
-        border-radius: 10px;
-        padding: 15px 20px;
-        transition: background-color 0.5s ease-in-out;
-        position: relative;
-    display: inline-block;
-        text-align: center;
-        margin-bottom: 10px;
 
-    }
- #Home {
-        padding: 10px 20px;
-    }
+.Nav-Items a {
+    color: var(--textcolor);
+    font-size: 5vw;
+    background-color: var(--boxbackground);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 30px 40px;
+    transition: background-color 0.5s ease-in-out;
+    position: relative;
+    display: inline-block;
+}
+
 .Nav-Items a:hover {
     font-size: 6vw;
     transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
     background-color: var(--boxbackgroundtransform);
 }
+
+
+
 #Hiragana .old-text,
 #Katakana .old-text {
     padding-left: 3vw;
@@ -87,11 +86,13 @@ tr {
     left: 0;
     transition: opacity 0.5s ease-in-out;
 }
+
 #Hiragana .new-text,
 #Katakana .new-text {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
+
 #Hiragana:hover .old-text,
 #Katakana:hover .old-text {
     opacity: 0;
@@ -108,15 +109,4 @@ tr {
     transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
     background-color: var(--boxbackgroundtransform);
     
-}
-@media (max-width: 600px) {
-    .Nav-Items a {
-        padding: 5px 10px;
-        /* Adjusted padding values for mobile */
-    }
-
-    .Nav-Items a:hover {
-        padding: 8px 18px;
-        /* Adjusted padding values for mobile */
-    }
 }
