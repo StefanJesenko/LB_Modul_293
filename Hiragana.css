@@ -10,6 +10,17 @@ body {
     background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.ctfassets.net%2Ftn1xf54wq7nh%2FUxfD9ejROEWWSk8KQQeSw%2F199f8da46a8a00b84401390d1c386ea3%2FJapan_2-min.jpg&f=1&nofb=1&ipt=dd8173c07dbc0a90b39e8caf27871fc335b2e932e987e97eb8ddcad78712b2e2&ipo=images);
 
 }
+p {
+    color: var(--textcolor);
+    font-size: 30px;
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    padding: 20px 40px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
 
 h1 {
     font-size: 100px;
