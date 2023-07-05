@@ -109,3 +109,14 @@ tr {
     background-color: var(--boxbackgroundtransform);
     
 }
+@media (max-width: 600px) {
+    .Nav-Items a {
+        padding: 5px 10px;
+        /* Adjusted padding values for mobile */
+    }
+
+    .Nav-Items a:hover {
+        padding: 8px 18px;
+        /* Adjusted padding values for mobile */
+    }
+}
