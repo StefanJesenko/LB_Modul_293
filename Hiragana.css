@@ -142,31 +142,31 @@ p {
 #Sound-Hiragana-Text,
 #usecases-Hiragana-Text,
 #learn-Hiragana-Text {
-    display: none;
+    visibility: hidden;
 }
 
 #What-Hiragana:checked~#What-Hiragana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #History-Hiragana:checked~#History-Hiragana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #Sound-Hiragana:checked~#Sound-Hiragana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #usecases-Hiragana:checked~#usecases-Hiragana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #learn-Hiragana:checked~#learn-Hiragana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
@@ -313,7 +313,7 @@ p {
     #Sound-Hiragana-Text,
     #usecases-Hiragana-Text,
     #learn-Hiragana-Text {
-        display: none; 
+        visibility: hidden;
     }
 
     #What-Hiragana:checked~#What-Hiragana-Text,
@@ -321,7 +321,7 @@ p {
     #Sound-Hiragana:checked~#Sound-Hiragana-Text,
     #usecases-Hiragana:checked~#usecases-Hiragana-Text,
     #learn-Hiragana:checked~#learn-Hiragana-Text {
-        display: block;
+        visibility: visible;
     }
 
     #What-Hiragana,
