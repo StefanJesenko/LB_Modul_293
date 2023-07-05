@@ -50,6 +50,12 @@ th {
 tr {
     background-color: var(--boxbackground);
 }
+.Nav-Items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .Nav-Items a {
         color: var(--textcolor);
         font-size: 20px;
