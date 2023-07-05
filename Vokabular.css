@@ -112,3 +112,110 @@ tr {
     transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
     background-color: var(--boxbackgroundtransform);
 }
+@media (max-width: 600px) {
+    :root {
+    --backgroundcolor: RGB(28, 80, 82);
+    --boxbackground: RGB(176, 255, 250);
+    --textcolor: RGB(54, 155, 158);
+    --boxbackgroundtransform: #81c3bd;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.ctfassets.net%2Ftn1xf54wq7nh%2FUxfD9ejROEWWSk8KQQeSw%2F199f8da46a8a00b84401390d1c386ea3%2FJapan_2-min.jpg&f=1&nofb=1&ipt=dd8173c07dbc0a90b39e8caf27871fc335b2e932e987e97eb8ddcad78712b2e2&ipo=images);
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--textcolor);
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    padding: 10px 20px;
+    justify-content: center;
+    margin-top: 5px;
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+th {
+    background-color: var(--boxbackground);
+}
+
+tr {
+    background-color: var(--boxbackground);
+}
+
+.Nav-Items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Nav-Items a {
+    color: var(--textcolor);
+    font-size: 4vw;
+    background-color: var(--boxbackground);
+    text-decoration: none;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#Home {
+    padding: 10px 20px;
+}
+
+.Nav-Items a:hover {
+    font-size: 5vw;
+    transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    background-color: var(--boxbackgroundtransform);
+}
+
+#Hiragana .old-text,
+#Katakana .old-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#Hiragana .new-text,
+#Katakana .new-text {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#Hiragana:hover .old-text,
+#Katakana:hover .old-text {
+    opacity: 0;
+}
+
+#Hiragana:hover .new-text,
+#Katakana:hover .new-text {
+    opacity: 1;
+}
+
+#Hiragana:hover,
+#Katakana:hover {
+    font-size: 5vw;
+    transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    background-color: var(--boxbackgroundtransform);
+}
+
+}
