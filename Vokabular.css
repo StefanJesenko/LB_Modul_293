@@ -83,8 +83,7 @@ tr {
 
 #Hiragana .old-text,
 #Katakana .old-text {
-    padding-left: 3vw;
-    padding-top: 2vw;
+    
     position: absolute;
     top: 0;
     left: 0;
