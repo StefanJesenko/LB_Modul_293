@@ -63,6 +63,7 @@ tr {
     background-color: var(--boxbackground);
     text-decoration: none;
     border-radius: 20px;
+     padding: 30px 40px;
     position: relative;
     display: inline-block;
     transition: background-color 0.5s ease-in-out;
