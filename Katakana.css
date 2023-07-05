@@ -142,31 +142,31 @@ p {
 #Sound-Katakana-Text,
 #usecases-Katakana-Text,
 #learn-Katakana-Text {
-    display: none;
+    visibility: hidden;
 }
 
 #What-Katakana:checked~#What-Katakana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #History-Katakana:checked~#History-Katakana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #Sound-Katakana:checked~#Sound-Katakana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #usecases-Katakana:checked~#usecases-Katakana-Text {
-    display: block;
+    visibility: visible;
 
 }
 
 #learn-Katakana:checked~#learn-Katakana-Text {
-    display: block;
+   visibility: visible;
 
 }
 
@@ -312,7 +312,7 @@ p {
     #Sound-Katakana-Text,
     #usecases-Katakana-Text,
     #learn-Katakana-Text {
-        display: none;
+        visibility: hidden;
     }
 
     #What-Katakana:checked~#What-Katakana-Text,
@@ -320,7 +320,7 @@ p {
     #Sound-Katakana:checked~#Sound-Katakana-Text,
     #usecases-Katakana:checked~#usecases-Katakana-Text,
     #learn-Katakana:checked~#learn-Katakana-Text {
-        display: block;
+       visibility: visible;
     }
 
     #What-Katakana,
