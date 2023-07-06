@@ -112,6 +112,18 @@ tr {
     transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
     background-color: var(--boxbackgroundtransform);
 }
+p {
+    color: var(--textcolor);
+    font-size: 3vw;
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    padding: 2vw 4vw;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vw;
+   
+}
+
 @media (max-width: 600px) {
     :root {
     --backgroundcolor: RGB(28, 80, 82);
