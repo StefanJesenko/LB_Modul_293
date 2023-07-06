@@ -1,0 +1,62 @@
+:root {
+   --backgroundcolor: rgb(28, 80, 82);
+    --boxbackground: rgb(176, 255, 250);
+    --textcolor: rgb(54, 155, 158);
+    --boxbackgroundtransform: #81c3bd;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.ctfassets.net%2Ftn1xf54wq7nh%2FUxfD9ejROEWWSk8KQQeSw%2F199f8da46a8a00b84401390d1c386ea3%2FJapan_2-min.jpg&f=1&nofb=1&ipt=dd8173c07dbc0a90b39e8caf27871fc335b2e932e987e97eb8ddcad78712b2e2&ipo=images);
+}
+
+h1 {
+    font-size: 4vw;
+    color: var(--textcolor);
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.Nav-Items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Nav-Items a {
+    color: var(--textcolor);
+    font-size: 5vw;
+    background-color: var(--boxbackground);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 30px 40px;
+    transition: background-color 0.5s ease-in-out;
+    position: relative;
+    display: inline-block;
+}
+
+.Nav-Items a:hover {
+    font-size: 6vw;
+    transition: background-color 0.5s ease-in-out, font-size 0.5s ease-in-out;
+    background-color: var(--boxbackgroundtransform);
+}
+p {
+    color: var(--textcolor);
+    font-size: 3vw;
+    background-color: var(--boxbackground);
+    border-radius: 10px;
+    padding: 2vw 4vw;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vw;
+    opacity: 0.75;
+}
+
+p:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
